@@ -17,7 +17,7 @@ import json
 import sys
 
 import twitter
-from t import ACCESS_TOKEN_KEY, ACCESS_TOKEN_SECRET, CONSUMER_KEY, CONSUMER_SECRET
+from twitter import ACCESS_TOKEN_KEY, ACCESS_TOKEN_SECRET, CONSUMER_KEY, CONSUMER_SECRET
 
 
 def get_tweets(api=None, screen_name=None):
